@@ -1,0 +1,8 @@
+
+== Conclusion
+
+[.step]
+* Nommer les outils clés de la Suite Elastic
+* Expliquer les principaux usages
+* Manipuler efficacement les données avec Logstash
+* Connaître les fonctionnalités de Kibana

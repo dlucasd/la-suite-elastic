@@ -1,0 +1,10 @@
+= La suite elastic
+
+Les slides : https://dlucasd.github.io/la-suite-elastic/#/[Github Pages -> ici]
+
+== Generate
+
+[source, bash]
+----
+docker container run --rm -u $(id -u):$(id -g) -v $(pwd):/documents asciidoctor/docker-asciidoctor:1.65 'asciidoctor-revealjs index.adoc'
+----

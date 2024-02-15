@@ -1,0 +1,20 @@
+= La suite elastic
+:docinfo: private
+:source-highlighter: highlight.js
+:autofit-option:
+:icons: font
+:revealjs_slideNumber: true
+:revealjs_theme: gop
+:revealjs_history: true
+:revealjs_pdfseparatefragments: false
+
+image::images/elastic.png[]
+
+include::objectifs.adoc[]
+include::outils.adoc[]
+include::usages.adoc[]
+include::logstash.adoc[]
+include::kibana.adoc[]
+include::demo.adoc[]
+include::outro.adoc[]
+

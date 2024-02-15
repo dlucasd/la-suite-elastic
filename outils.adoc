@@ -1,0 +1,59 @@
+== Outils
+
+=== !
+
+image::images/elasticsearch.png[width=300]
+
+
+[.notes]
+--
+* Limité par les performances de Compass, Shay Banon créé Elasticsearch en 2010
+* Indexation et recherche de données
+* Basé sur Apache Lucene
+* Distribué (indices > shards > replicas)
+* Tout type de données : texte, numérique, géospatiale, structurée, non structurée
+* API REST
+* Orienté document
+* Chaque type de données est stocké sous une forme spécifique pour optimiser les performances de recherche
+--
+
+=== Document
+
+[.step]
+* Une unité de stockage
+* JSON
+* Stocké dans un index
+* Chaque document possède un identifiant unique
+* Deux métadonnées : `_index` et `_id`
+* Ensemble de clés/valeurs appelées champs
+
+[.notes]
+--
+* Possibilité d'associer un schéma ou non
+* Schéma spécifique pour utiliser des formats de date personnalisé par exemple
+--
+
+=== !
+
+image::images/elasticsearch2.png[]
+
+=== !
+
+image::images/elasticsearch_logstash.png[]
+
+=== !
+
+image::images/logstash_pipeline.png[width=1000]
+
+=== !
+
+image::images/elk.png[width=1000]
+
+=== !
+
+image::images/belk.png[width=1000]
+
+=== !
+
+image::images/belk2.png[width=1000]
+
